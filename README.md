@@ -39,6 +39,7 @@ $ sudo apt-get install terminator
 ```
 
 ### 3. 本リポジトリのクローン <br>
+<catkin_ws> と書かれているものは、各自の作成したワークスペースに置き換えて考える
 ```
 $ cd <catkin_ws>/src
 $ git clone https://github.com/yoshikuro/opencv_tutorial.git
