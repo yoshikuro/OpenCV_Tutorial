@@ -1,6 +1,6 @@
 # OpenCV_Tutorial
-PythonでOpenCVを使用した画像処理を行いたい人向けのサンプルコード
-どこかの大学のどこかの研究室でもしかするともしかするかもしれない
+PythonでOpenCVを使用した画像処理を行いたい人向けのサンプルコード <br>
+どこかの大学のどこかの研究室でもしかするともしかするかもしれない <br>
 
 ## 使用環境
 Virtual Box
@@ -61,7 +61,7 @@ $ source devel/setup.bash
     接続されている場合、`/dev/video0`が表示される(番号は接続されているカメラの数によって変わる)
 
 ### 6. 動作確認
-  実際に動作可能かを確認する
+  実際に動作可能かを確認する <br>
   3つのターミナルを開き、以下を実行する
   
  ```
@@ -76,18 +76,18 @@ $ source devel/setup.bash
  $ rosrun image_view image_view image:=/usb_cam/image_raw
  ```
 
- また、roslaunchを使用することで、上3つの実行がひとつのターミナルで完結する<br>
- 起動するノード(rosrunで動かすやつ)が増えて、困難に感じたときはlaunchファイルを作ると便利<br>
+ また、roslaunchを使用することで、上3つの実行がひとつのターミナルで完結する <br>
+ 起動するノード(rosrunで動かすやつ)が増えて、困難に感じたときはlaunchファイルを作ると便利 <br>
  ```
  $ roslaunch usb_cam usb_cam-test.launch
  ```
  
  ### 7. エラーなど動作しないとき
  #### rosrun usb_cam usb_cam_node の起動時にエラーが表示される (VIDIOC_STREAMON　error 5, Input/output error)
-  1. Virtual BoxのUSB設定が、デフォルトの1.1になっている<br>
-  Ubuntuを一度閉じ、Virtual Boxマネージャの設定からUSB設定を3.0にする<br>
-  USB設定に2.0、3.0がない場合は、Virtual BoxのサイトからダウンロードしたExtention Packをインストールする<br>
-  <https://www.virtualbox.org/wiki/Download_Old_Builds><br>
+  1. Virtual BoxのUSB設定が、デフォルトの1.1になっている <br>
+  Ubuntuを一度閉じ、Virtual Boxマネージャの設定からUSB設定を3.0にする <br>
+  USB設定に2.0、3.0がない場合は、Virtual BoxのサイトからダウンロードしたExtention Packをインストールする <br>
+  <https://www.virtualbox.org/wiki/Download_Old_Builds> <br>
   ※Virtual Boxのバージョンを確認し、ダウンロードするものを一致させること
   
  ### 8. 参考になるサイト
