@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import cv2
+import numpy as np
 
 img = cv2.imread("img/OpenCV.png")	# 画像を変数imgに代入
 
