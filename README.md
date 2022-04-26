@@ -92,5 +92,5 @@ $ source devel/setup.bash
   ※Virtual Boxのバージョンを確認し、ダウンロードするものを一致させること
   
  ### 8. 参考になるサイト
- * ROS launchファイルの使い方
+ * ROS launchファイルの使い方 <br>
    <https://kazuyamashi.github.io/ros_lecture/ros_launch.html>
