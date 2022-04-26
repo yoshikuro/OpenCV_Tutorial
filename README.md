@@ -1,4 +1,4 @@
-# OpenCV_Tutorial
+# ROS-OpenCV_Tutorial
 PythonでOpenCVを使用した画像処理を行いたい人向けのサンプルコード <br>
 どこかの大学のどこかの研究室でもしかするともしかするかもしれない <br>
 
