@@ -1,8 +1,9 @@
+# -*- coding: utf-8 -*-
 import cv2
 
-img = cv2.imread("img/OpenCV.png")	# ‰æ‘œ‚ğ•Ï”img‚É‘ã“ü
+img = cv2.imread("img/OpenCV.png")	# ç”»åƒã‚’å¤‰æ•°imgã«ä»£å…¥
 
-cv2.imshow("OpenCV", img)			# –¼‘O‚ªuOpenCVv‚ÌƒEƒBƒ“ƒhƒE‚Éimg‚ğ•\¦
-cv2.waitKey(0)						# ƒL[“ü—Í‘Ò‚¿ó‘Ô‚ğ¦‚·/“ü—Í‚³‚ê‚éƒL[‚Íw’è‚È‚µ
-cv2.destroyAllWindows()				# ‚·‚×‚Ä‚ÌƒEƒBƒ“ƒhƒE‚ğ•Â‚¶‚é
+cv2.imshow("OpenCV", img)			# åå‰ãŒã€ŒOpenCVã€ã®ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã«imgã‚’è¡¨ç¤º
+cv2.waitKey(0)						# ã‚­ãƒ¼å…¥åŠ›å¾…ã¡çŠ¶æ…‹ã‚’ç¤ºã™/å…¥åŠ›ã•ã‚Œã‚‹ã‚­ãƒ¼ã¯æŒ‡å®šãªã—
+cv2.destroyAllWindows()				# ã™ã¹ã¦ã®ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‚’é–‰ã˜ã‚‹
 
